@@ -90,7 +90,7 @@ exports.commands = {
 	},
 
 	work: function (target, room, user) {
-		this.parse('/away work', room, user);
+		this.parse('/away WORK', room, user);
 	},
 
 	working: function (target, room, user) {
@@ -98,11 +98,11 @@ exports.commands = {
 	},
 
 	eating: function (target, room, user) {
-		this.parse('/away Comendo', room, user);
+		this.parse('/away EATING', room, user);
 	},
 
 	gaming: function (target, room, user) {
-		this.parse('/away Jogando', room, user);
+		this.parse('/away GAMING', room, user);
 	},
 
 	sleep: function (target, room, user) {
@@ -110,15 +110,15 @@ exports.commands = {
 	},
 
 	sleeping: function (target, room, user) {
-		this.parse('/away Dormindo', room, user);
+		this.parse('/away SLEEPING', room, user);
 	},
 
 	fap: function (target, room, user) {
 		this.parse('/away FAP', room, user);
 	},
 
-	Descascando pra trap: function (target, room, user) {
-		this.parse('/away Descascando pra trap', room, user);
+	fapping: function (target, room, user) {
+		this.parse('/away FAPPING', room, user);
 	},
 
 	nerd: function (target, room, user) {
