@@ -32,7 +32,7 @@ var emotes = {
 	'wtfman': 'http://i.imgur.com/kwR8Re9.png',
 	'xaa': 'http://i.imgur.com/V728AvL.png',
 	'yayface': 'http://i.imgur.com/anY1jf8.png',
-	'yesface': 'http://i.imgur.com/k9YCF6K.png'
+	'bilada': 'http://bilada.tremblish.com/bilada1.jpg'
 };
 
 var emotesKeys = Object.keys(emotes);
